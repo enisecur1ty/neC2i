@@ -1,5 +1,6 @@
 # neC2i
 # Command and Control (C2) Server and Client
+# Command and Control (C2) Server and Client
 
 This project implements a basic Command and Control (C2) server and client using Python. The server can send commands to connected clients to perform various actions, such as capturing screenshots, recording audio, changing directories, and executing shell commands. The client receives these commands, executes them, and sends the results back to the server.
 
@@ -21,25 +22,33 @@ This project implements a basic Command and Control (C2) server and client using
 ### Server
 
 1. Clone the repository and navigate to the project directory.
-    git clone https://github.com/enisecur1ty/neC2i.git
+    ```bash
+    git clone https://github.com/username/repository.git
     cd repository
+    ```
 
 2. Run the server script.
-    python3 server.py
+    ```bash
+    python server.py
+    ```
 
 ### Client
 
 1. Clone the repository and navigate to the project directory.
-    git clone git clone https://github.com/enisecur1ty/neC2i.git
+    ```bash
+    git clone https://github.com/username/repository.git
     cd repository
+    ```
 
 2. Install the required packages.
+    ```bash
     # Create and activate a virtual environment (optional but recommended)
     python -m venv myenv
     source myenv/bin/activate
     
     # Install dependencies
     pip install opencv-python pyaudio
+    ```
 
 3. Update the server IP address in the client script.
     ```python
@@ -47,8 +56,9 @@ This project implements a basic Command and Control (C2) server and client using
     ```
 
 4. Run the client script.
-    python3 client.py
-    
+    ```bash
+    python client.py
+    ```
 
 ## Usage
 
@@ -65,3 +75,4 @@ This project implements a basic Command and Control (C2) server and client using
 ## Ethical Considerations
 
 This project is intended for educational purposes only. Ensure you have proper authorization before running this software on any system. Unauthorized use of this software can lead to serious legal consequences.
+
