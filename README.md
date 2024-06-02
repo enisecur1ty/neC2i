@@ -1,6 +1,5 @@
 # neC2i
 # Command and Control (C2) Server and Client
-# Command and Control (C2) Server and Client
 
 This project implements a basic Command and Control (C2) server and client using Python. The server can send commands to connected clients to perform various actions, such as capturing screenshots, recording audio, changing directories, and executing shell commands. The client receives these commands, executes them, and sends the results back to the server.
 
