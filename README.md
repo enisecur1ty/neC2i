@@ -22,7 +22,7 @@ This project implements a basic Command and Control (C2) server and client using
 
 1. Clone the repository and navigate to the project directory.
     ```bash
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/enisecur1ty/neC2i.git
     cd repository
     ```
 
